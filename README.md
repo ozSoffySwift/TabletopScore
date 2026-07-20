@@ -162,6 +162,8 @@ the pre-release checklist.
 
 | File | What's in it |
 |---|---|
+| [Privacy policy](https://ozsoffyswift.github.io/TabletopScore/privacy.html) | What the app collects (published, linked from Settings) |
+| [`docs/app-store-privacy.md`](docs/app-store-privacy.md) | App Store Connect privacy answers |
 | [`TabletopScore-Spec.md`](TabletopScore-Spec.md) | Product spec (source of truth) |
 | [`CLAUDE.md`](CLAUDE.md) | Architecture notes and repo conventions |
 | [`LICENSING.md`](LICENSING.md) | Approved music sources, compliance rules |

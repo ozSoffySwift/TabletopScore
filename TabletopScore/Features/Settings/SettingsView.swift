@@ -118,6 +118,10 @@ struct SettingsView: View {
                     Label("Music Credits", systemImage: "music.quarternote.3")
                 }
                 .accessibilityHint(Text("Shows license credits for every track"))
+                Link(destination: URL(string: "https://ozsoffyswift.github.io/TabletopScore/privacy.html")!) {
+                    Label("Privacy Policy", systemImage: "hand.raised.fill")
+                }
+                .accessibilityHint(Text("Opens the privacy policy in your browser"))
                 Link(destination: URL(string: "https://boardgamegeek.com")!) {
                     Label("Powered by BoardGameGeek", systemImage: "link")
                 }
