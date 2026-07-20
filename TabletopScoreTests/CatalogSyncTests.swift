@@ -1,6 +1,6 @@
 import XCTest
 import SwiftData
-@testable import TableScore
+@testable import TabletopScore
 
 @MainActor
 final class CatalogSyncTests: XCTestCase {

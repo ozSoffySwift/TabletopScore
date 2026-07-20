@@ -1,5 +1,5 @@
-# Table Score: Board Game Music
-### (working title "TableScore"; display name "Table Score"; App Store name "Table Score: Board Game Music")
+# TabletopScore: Board Game Music
+### (working title "TabletopScore"; display name "TabletopScore"; App Store name "TabletopScore: Board Game Music")
 ## iOS App Specification v1.0
 
 **Platform:** iOS 17+ (iPhone & iPad) · **UI:** SwiftUI · **Persistence:** SwiftData · **Audio:** AVFoundation / AVPlayer
@@ -8,7 +8,7 @@
 
 ## 1. Product Overview
 
-TableScore plays curated background music and ambience for board game sessions. Users browse a Netflix/Disney+-style catalog of playlists organized by game genre, style, length, and player count, then play them with a full-featured media player that keeps running for the entire session.
+TabletopScore plays curated background music and ambience for board game sessions. Users browse a Netflix/Disney+-style catalog of playlists organized by game genre, style, length, and player count, then play them with a full-featured media player that keeps running for the entire session.
 
 ### Goals
 - One-tap ambience matched to the game on the table (e.g. "War Games", "18xx / Trains", "Solo Night").
@@ -227,7 +227,7 @@ Bundle tracks as ODR tags; the App Store hosts them and iOS fetches tags on dema
       "id": "drums-of-war",
       "name": "Drums of War",
       "summary": "Martial percussion and low brass for long campaigns.",
-      "artwork": "https://cdn.tablescore.io/art/drums-of-war.jpg",
+      "artwork": "https://cdn.tabletopscore.io/art/drums-of-war.jpg",
       "categories": ["war", "epic-length", "competitive"],
       "featured": true,
       "trackIds": ["t001", "t002", "t003"]
@@ -239,7 +239,7 @@ Bundle tracks as ODR tags; the App Store hosts them and iOS fetches tags on dema
       "title": "March of Iron",
       "artist": "K. Halvorsen",
       "duration": 342,
-      "url": "https://cdn.tablescore.io/audio/march-of-iron.m4a",
+      "url": "https://cdn.tabletopscore.io/audio/march-of-iron.m4a",
       "bytes": 5480000,
       "composer": "Kevin MacLeod",
       "license": "CC-BY-4.0",
@@ -251,8 +251,8 @@ Bundle tracks as ODR tags; the App Store hosts them and iOS fetches tags on dema
     {
       "id": "scythe",
       "name": "Scythe",
-      "artwork": "https://cdn.tablescore.io/box/scythe.jpg",
-      "heroArtwork": "https://cdn.tablescore.io/hero/scythe.jpg",
+      "artwork": "https://cdn.tabletopscore.io/box/scythe.jpg",
+      "heroArtwork": "https://cdn.tabletopscore.io/hero/scythe.jpg",
       "players": [1, 5],
       "playTime": 115,
       "rank": 7,

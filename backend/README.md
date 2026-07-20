@@ -1,4 +1,4 @@
-# TableScore backend (PocketBase on Oracle Cloud Always Free)
+# TabletopScore backend (PocketBase on Oracle Cloud Always Free)
 
 One VM.Standard.A1.Flex (2 OCPU / 12 GB, Ubuntu 24.04 arm64) running
 [PocketBase](https://pocketbase.io) behind Caddy (automatic Let's Encrypt
@@ -25,7 +25,7 @@ sh backend/provision.sh
 DOMAIN=your-domain sh backend/deploy.sh SERVER_IP
 
 # 4. First deploy only: create the superuser (interactive, on the server)
-ssh -i backend/keys/tablescore_ed25519 ubuntu@SERVER_IP
+ssh -i backend/keys/tabletopscore_ed25519 ubuntu@SERVER_IP
 sudo -u pocketbase /opt/pocketbase/pocketbase superuser upsert EMAIL PASSWORD --dir /opt/pocketbase/pb_data
 
 # 5. Migrate content (uploads ~500 MB of audio on first run)
@@ -55,7 +55,7 @@ with a 5-minute cache, so worst case an edit takes ~5 min + next app launch).
 ## App integration
 
 `PocketBaseCatalogSource` in the iOS app points at
-`BackendConfig.baseURL` (single constant in `TableScore/App/BackendConfig.swift`).
+`BackendConfig.baseURL` (single constant in `TabletopScore/App/BackendConfig.swift`).
 DEBUG builds default to the bundled fixture; launch argument
 `-UseRemoteCatalog` switches a DEBUG build to the server. Release builds
 always use the server.

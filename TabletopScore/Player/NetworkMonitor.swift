@@ -29,6 +29,6 @@ final class NetworkMonitor: @unchecked Sendable {
             self._isConnected = path.status == .satisfied
             self.lock.unlock()
         }
-        monitor.start(queue: DispatchQueue(label: "tablescore.network-monitor"))
+        monitor.start(queue: DispatchQueue(label: "tabletopscore.network-monitor"))
     }
 }

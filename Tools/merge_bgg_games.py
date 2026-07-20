@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Curate the BGG fetch output into TableScore's catalog schema.
+"""Curate the BGG fetch output into TabletopScore's catalog schema.
 
 Reads consept/games.json (produced by consept/fetch_game_art.py), assigns the
 hand-curated soundtrack playlist per game, maps BGG categories onto our

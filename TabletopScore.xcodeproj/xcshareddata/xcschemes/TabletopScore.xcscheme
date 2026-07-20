@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1000000000000000000AA02"
-               BuildableName = "TableScore.app"
-               BlueprintName = "TableScore"
-               ReferencedContainer = "container:TableScore.xcodeproj">
+               BuildableName = "TabletopScore.app"
+               BlueprintName = "TabletopScore"
+               ReferencedContainer = "container:TabletopScore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1000000000000000000AA03"
-               BuildableName = "TableScoreTests.xctest"
-               BlueprintName = "TableScoreTests"
-               ReferencedContainer = "container:TableScore.xcodeproj">
+               BuildableName = "TabletopScoreTests.xctest"
+               BlueprintName = "TabletopScoreTests"
+               ReferencedContainer = "container:TabletopScore.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1000000000000000000AA02"
-            BuildableName = "TableScore.app"
-            BlueprintName = "TableScore"
-            ReferencedContainer = "container:TableScore.xcodeproj">
+            BuildableName = "TabletopScore.app"
+            BlueprintName = "TabletopScore"
+            ReferencedContainer = "container:TabletopScore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,9 +74,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1000000000000000000AA02"
-            BuildableName = "TableScore.app"
-            BlueprintName = "TableScore"
-            ReferencedContainer = "container:TableScore.xcodeproj">
+            BuildableName = "TabletopScore.app"
+            BlueprintName = "TabletopScore"
+            ReferencedContainer = "container:TabletopScore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="TableScore/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="140" alt="Table Score app icon">
+<img src="TabletopScore/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="140" alt="TabletopScore app icon">
 
-# Table Score
+# TabletopScore
 
 **Background music for board game nights.**
 Pick the game on your table — get its soundtrack.
@@ -15,7 +15,7 @@ iOS 17+ · SwiftUI · SwiftData · AVFoundation · no third-party dependencies
 
 ## What it does
 
-Table Score is a background-music player built for the table. You browse by
+TabletopScore is a background-music player built for the table. You browse by
 **the game you're actually playing** — 105 titles, each mapped to a curated
 soundtrack — hit play, and the music runs for the whole session: crossfaded,
 looping, with a sleep timer and a one-tap volume duck for when someone has to
@@ -55,11 +55,11 @@ catalog.json manifest → CatalogSyncService → SwiftData → @Query-driven UI
 
 | Module | Purpose |
 |---|---|
-| `TableScore/Models` | SwiftData models: `Game`, `Track`, `Playlist`, `GameCategory`, `PlaybackStateRecord`. Ids are the catalog's string slugs so sync can diff by manifest id. |
-| `TableScore/Catalog` | `CatalogSource` protocol (backend or bundled fixture), manifest DTOs, `CatalogSyncService` (upsert/diff, preserves user state, removes deleted ids). |
-| `TableScore/Player` | `PlayerService` (@Observable facade), `CrossfadeEngine` (two AVPlayers so tracks can overlap), `PlayQueue` (pure, unit-tested shuffle/repeat logic), `NetworkMonitor`. |
-| `TableScore/DesignSystem` | Theme tokens, shimmer loading, deterministic gradient placeholder art (keyed by id — used in views *and* lock-screen artwork). |
-| `TableScore/Features` | Game-first Home, game detail, category grid, playlist detail, Now Playing + mini player, Search, Library, Settings. |
+| `TabletopScore/Models` | SwiftData models: `Game`, `Track`, `Playlist`, `GameCategory`, `PlaybackStateRecord`. Ids are the catalog's string slugs so sync can diff by manifest id. |
+| `TabletopScore/Catalog` | `CatalogSource` protocol (backend or bundled fixture), manifest DTOs, `CatalogSyncService` (upsert/diff, preserves user state, removes deleted ids). |
+| `TabletopScore/Player` | `PlayerService` (@Observable facade), `CrossfadeEngine` (two AVPlayers so tracks can overlap), `PlayQueue` (pure, unit-tested shuffle/repeat logic), `NetworkMonitor`. |
+| `TabletopScore/DesignSystem` | Theme tokens, shimmer loading, deterministic gradient placeholder art (keyed by id — used in views *and* lock-screen artwork). |
+| `TabletopScore/Features` | Game-first Home, game detail, category grid, playlist detail, Now Playing + mini player, Search, Library, Settings. |
 
 Three details worth knowing before changing things:
 
@@ -97,18 +97,18 @@ clients resync automatically. See [`backend/README.md`](backend/README.md).
 
 ```sh
 # Build
-xcodebuild -project TableScore.xcodeproj -scheme TableScore \
+xcodebuild -project TabletopScore.xcodeproj -scheme TabletopScore \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build
 
 # All tests (catalog sync/diffing + queue logic)
-xcodebuild -project TableScore.xcodeproj -scheme TableScore \
+xcodebuild -project TabletopScore.xcodeproj -scheme TabletopScore \
   -destination 'platform=iOS Simulator,name=iPhone 17 Pro' test
 
 # A single test class
-xcodebuild ... test -only-testing:TableScoreTests/PlayQueueTests
+xcodebuild ... test -only-testing:TabletopScoreTests/PlayQueueTests
 ```
 
-Or open `TableScore.xcodeproj` and hit Run. The project uses file-system
+Or open `TabletopScore.xcodeproj` and hit Run. The project uses file-system
 synchronized groups (Xcode 16+), so files added to the folders are picked up
 automatically — never add per-file entries to the pbxproj.
 
@@ -118,8 +118,8 @@ serve the local media with `Tools/serve_devcdn.sh`.
 
 ### Signing for a real device
 
-Target *TableScore* → *Signing & Capabilities* → select your team. Bundle id is
-`com.ozsoffy.tablescore`. Background audio is already configured via
+Target *TabletopScore* → *Signing & Capabilities* → select your team. Bundle id is
+`com.ozsoffy.tabletopscore`. Background audio is already configured via
 [`Support/Info.plist`](Support/Info.plist) (`UIBackgroundModes: audio`).
 
 ## Media
@@ -156,13 +156,13 @@ the pre-release checklist.
 
 - Model ids are `String` (catalog slugs), not `UUID` — required for stable sync diffing.
 - The spec's `Category` model is named `GameCategory`, to avoid colliding with common framework type names.
-- Display name is **Table Score** (two words); code, targets and bundle ids keep the one-word `TableScore` internally.
+- The app was renamed from *TableScore* to **TabletopScore**; the display name, target, module and bundle id (`com.ozsoffy.tabletopscore`) are all consistent.
 
 ## Docs
 
 | File | What's in it |
 |---|---|
-| [`TableScore-Spec.md`](TableScore-Spec.md) | Product spec (source of truth) |
+| [`TabletopScore-Spec.md`](TabletopScore-Spec.md) | Product spec (source of truth) |
 | [`CLAUDE.md`](CLAUDE.md) | Architecture notes and repo conventions |
 | [`LICENSING.md`](LICENSING.md) | Approved music sources, compliance rules |
 | [`assets/README.md`](assets/README.md) | Media layout and how to repopulate |

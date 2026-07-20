@@ -88,7 +88,7 @@ struct SettingsView: View {
             } header: {
                 Text("Privacy")
             } footer: {
-                Text("Helps improve Table Score by counting plays anonymously — a random install ID, never anything personal. Turning this off takes effect immediately.")
+                Text("Helps improve TabletopScore by counting plays anonymously — a random install ID, never anything personal. Turning this off takes effect immediately.")
             }
             .listRowBackground(Theme.surface)
 
@@ -118,7 +118,7 @@ struct SettingsView: View {
                 Button {
                     openURL(reviewURL)
                 } label: {
-                    Label("Rate Table Score", systemImage: "star.fill")
+                    Label("Rate TabletopScore", systemImage: "star.fill")
                 }
                 .accessibilityHint(Text("Opens the App Store to leave a rating and review"))
                 LabeledContent("Version", value: appVersion)

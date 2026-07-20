@@ -1,13 +1,13 @@
 #!/bin/sh
-# Deploy/refresh the TableScore server (idempotent).
-#   DOMAIN=tablescore.duckdns.org sh backend/deploy.sh <SERVER_IP>
+# Deploy/refresh the TabletopScore server (idempotent).
+#   DOMAIN=tabletopscore.duckdns.org sh backend/deploy.sh <SERVER_IP>
 # Copies pb_migrations + pb_hooks, then runs setup_server.sh over SSH.
 set -eu
 
 IP="${1:?usage: DOMAIN=<domain> sh backend/deploy.sh <server-ip>}"
 DOMAIN="${DOMAIN:?set DOMAIN}"
 DIR="$(dirname "$0")"
-KEY="$DIR/keys/tablescore_ed25519"
+KEY="$DIR/keys/tabletopscore_ed25519"
 SSH="ssh -i $KEY -o StrictHostKeyChecking=accept-new ubuntu@$IP"
 
 echo "== copying migrations + hooks =="

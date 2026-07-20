@@ -82,7 +82,7 @@ struct HomeView: View {
         }
         .miniPlayerGap()
         .background(Theme.background)
-        .navigationTitle("Table Score")
+        .navigationTitle("TabletopScore")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(Theme.background, for: .navigationBar)
         .navigationDestination(for: Game.self) { GameDetailView(game: $0) }

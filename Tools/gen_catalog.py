@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the development fixture catalog.json for TableScore.
+"""Generate the development fixture catalog.json for TabletopScore.
 
 Run from the repo root:  python3 Tools/gen_catalog.py
 
@@ -336,7 +336,7 @@ manifest = {
     "tracks": tracks,
     "games": games,
 }
-out = os.path.join(os.path.dirname(__file__), "..", "TableScore", "Resources", "catalog.json")
+out = os.path.join(os.path.dirname(__file__), "..", "TabletopScore", "Resources", "catalog.json")
 with open(out, "w") as f:
     json.dump(manifest, f, indent=2, ensure_ascii=False)
 print(f"tracks={len(tracks)} playlists={len(playlists)} categories={len(categories)} games={len(games)}")

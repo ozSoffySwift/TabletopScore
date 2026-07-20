@@ -2,7 +2,7 @@
 """One-off asset tool: remove the three baked-in sound-wave arcs from the
 splash screen PNG so SwiftUI can draw and animate them natively.
 
-Reads Marketing/'TableScore splash screen v1.png', writes the waveless image
+Reads Marketing/'TabletopScore splash screen v1.png', writes the waveless image
 into the SplashImage asset set, and prints the fitted arc geometry (center,
 radius, angles, stroke width, color) in display points (@3x) for SplashView.
 
@@ -18,8 +18,8 @@ import sys
 import zlib
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-SRC = os.path.join(ROOT, "Marketing", "TableScore splash screen v1.png")
-DST = os.path.join(ROOT, "TableScore", "Resources", "Assets.xcassets", "SplashImage.imageset", "splash.png")
+SRC = os.path.join(ROOT, "Marketing", "TabletopScore splash screen v1.png")
+DST = os.path.join(ROOT, "TabletopScore", "Resources", "Assets.xcassets", "SplashImage.imageset", "splash.png")
 
 # Search window covering the whole logo, in source pixels. The arcs are the
 # three largest amber connected components AFTER the meeple+note blob.

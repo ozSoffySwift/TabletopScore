@@ -44,7 +44,7 @@ struct MusicCreditsView: View {
                     }
                     Section {
                     } footer: {
-                        Text("Tracks credited above are used under their respective licenses (Creative Commons Attribution 4.0, the Pixabay Content License, or public domain). Music is streamed for listening within Table Score and is not offered for download.")
+                        Text("Tracks credited above are used under their respective licenses (Creative Commons Attribution 4.0, the Pixabay Content License, or public domain). Music is streamed for listening within TabletopScore and is not offered for download.")
                             .font(.caption2)
                     }
                 }

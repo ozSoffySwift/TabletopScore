@@ -1,10 +1,10 @@
-# Claude Code prompt — TableScore
+# Claude Code prompt — TabletopScore
 
-Copy everything below the line into Claude Code, run from an empty project folder containing `TableScore-Spec.md`.
+Copy everything below the line into Claude Code, run from an empty project folder containing `TabletopScore-Spec.md`.
 
 ---
 
-Build an iOS app called **TableScore** (App Store name: "TableScore: Board Game Music") — a background-music player for board game sessions. The full spec is in `TableScore-Spec.md` in this folder; read it first and follow it. Key decisions, already made:
+Build an iOS app called **TabletopScore** (App Store name: "TabletopScore: Board Game Music") — a background-music player for board game sessions. The full spec is in `TabletopScore-Spec.md` in this folder; read it first and follow it. Key decisions, already made:
 
 **Stack:** SwiftUI, SwiftData, AVFoundation. iOS 17+, iPhone-first. MVVM with `@Observable` view models. No third-party dependencies except (optionally) Nuke for image caching — prefer plain `AsyncImage` with a small disk cache first.
 
@@ -17,7 +17,7 @@ Build an iOS app called **TableScore** (App Store name: "TableScore: Board Game 
 **Screens:** Home (hero + rows), Category "see all" grid, Playlist detail (art, description, track list, Play/Shuffle), Now Playing, Search (name/tag/mood), Library (favorites, recently played), Settings (cellular streaming toggle, crossfade, cache size). Tab bar: Home, Search, Library, Settings.
 
 **How to work:**
-1. Read `TableScore-Spec.md` fully.
+1. Read `TabletopScore-Spec.md` fully.
 2. Create the Xcode project structure (use XcodeGen or Tuist if available, otherwise create the `.xcodeproj` layout you can and give me exact Xcode steps for anything that must be done in the GUI, e.g. capabilities).
 3. Build in this order: SwiftData models + catalog sync with fixture catalog → PlayerService with background audio → Home browse UI → mini player + Now Playing → playlist detail → search/library/settings → polish (shimmer loading, haptics, accessibility labels, Dynamic Type).
 4. After each milestone, build with `xcodebuild` for the iOS Simulator and fix all errors and warnings before moving on. Write unit tests for catalog sync/diffing and the queue logic in PlayerService.

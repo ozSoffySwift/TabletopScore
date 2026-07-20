@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 fetch_game_art.py — Pull top board games' data + box art from the BoardGameGeek XML API
-and emit the `games` fragment for TableScore's catalog.json.
+and emit the `games` fragment for TabletopScore's catalog.json.
 
 Usage:
     pip install requests
@@ -134,14 +134,14 @@ GAME_IDS = [
 ]
 
 API = "https://boardgamegeek.com/xmlapi2/thing"
-HEADERS = {"User-Agent": "TableScore-catalog-builder/1.0 (dev tooling)"}
+HEADERS = {"User-Agent": "TabletopScore-catalog-builder/1.0 (dev tooling)"}
 if BGG_TOKEN:
     HEADERS["Authorization"] = f"Bearer {BGG_TOKEN}"
 # Image downloads go to BGG's image CDN (different host): never send the
 # API token there.
 IMAGE_HEADERS = {"User-Agent": HEADERS["User-Agent"]}
 
-# BGG category → TableScore category ids (extend as needed)
+# BGG category → TabletopScore category ids (extend as needed)
 CATEGORY_MAP = {
     "Wargame": "war", "World War II": "war", "Fighting": "war",
     "Trains": "trains-18xx", "Transportation": "trains-18xx",

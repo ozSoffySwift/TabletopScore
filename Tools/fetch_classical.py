@@ -27,7 +27,7 @@ SOURCES = os.path.join(os.path.dirname(__file__), "sources.csv")
 
 BASE = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/{}.mp3"
 SOURCE_PAGE = "https://incompetech.com/music/royalty-free/"
-HEADERS = {"User-Agent": "TableScore-catalog-builder/1.0 (dev tooling)"}
+HEADERS = {"User-Agent": "TabletopScore-catalog-builder/1.0 (dev tooling)"}
 
 # Candidate KM titles that are arrangements of public-domain classical works
 # (or KM classical-style piano originals). Reality is enforced by verification;

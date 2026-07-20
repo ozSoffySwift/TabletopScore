@@ -1,5 +1,5 @@
 import XCTest
-@testable import TableScore
+@testable import TabletopScore
 
 final class SmokeTests: XCTestCase {
     func testTargetLinks() {

@@ -43,7 +43,7 @@ struct SplashView: View {
         // so the hand-off between the two is pixel-aligned.
         .ignoresSafeArea()
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(Text("Table Score is loading"))
+        .accessibilityLabel(Text("TabletopScore is loading"))
         .task {
             guard !reduceMotion else {
                 visibleArcs = Self.waveArcs.count

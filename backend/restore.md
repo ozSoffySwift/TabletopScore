@@ -14,8 +14,8 @@ tars `/opt/pocketbase/pb_data` (database + all uploaded media) to
 instance protects against corruption, not reclamation:
 
 ```sh
-scp -i backend/keys/tablescore_ed25519 \
-  ubuntu@SERVER_IP:/opt/backups/pb_data_$(date +%Y%m%d).tar.gz ~/tablescore-backups/
+scp -i backend/keys/tabletopscore_ed25519 \
+  ubuntu@SERVER_IP:/opt/backups/pb_data_$(date +%Y%m%d).tar.gz ~/tabletopscore-backups/
 ```
 
 ## Restore onto a fresh instance
@@ -24,7 +24,7 @@ scp -i backend/keys/tablescore_ed25519 \
    `DOMAIN=... sh backend/deploy.sh NEW_IP`). Update DNS/DuckDNS to the new IP.
 2. Stop PocketBase and unpack the backup:
    ```sh
-   ssh -i backend/keys/tablescore_ed25519 ubuntu@NEW_IP
+   ssh -i backend/keys/tabletopscore_ed25519 ubuntu@NEW_IP
    sudo systemctl stop pocketbase
    sudo tar xzf /path/to/pb_data_YYYYMMDD.tar.gz -C /opt/pocketbase
    sudo chown -R pocketbase:pocketbase /opt/pocketbase/pb_data

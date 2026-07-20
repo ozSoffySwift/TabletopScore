@@ -14,7 +14,7 @@ final class AnalyticsService: @unchecked Sendable {
     static let optInKey = "settings.shareAnonymousUsage"
     private static let deviceIDKey = "analytics.anonDeviceID"
 
-    private let queue = DispatchQueue(label: "tablescore.analytics")
+    private let queue = DispatchQueue(label: "tabletopscore.analytics")
     private var pending: [[String: String]] = []
     private var flushScheduled = false
 

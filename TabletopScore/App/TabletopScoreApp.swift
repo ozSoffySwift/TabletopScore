@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct TableScoreApp: App {
+struct TabletopScoreApp: App {
     private let container: ModelContainer
     @State private var settings: AppSettings
     @State private var player: PlayerService

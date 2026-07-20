@@ -1,11 +1,11 @@
 #!/bin/bash
-# TableScore server setup (Phase 2). Runs ON the instance as root.
+# TabletopScore server setup (Phase 2). Runs ON the instance as root.
 # Idempotent — safe to rerun. Invoked by deploy.sh; expects env:
-#   DOMAIN      e.g. tablescore.duckdns.org (required — Caddy needs it for TLS)
+#   DOMAIN      e.g. tabletopscore.duckdns.org (required — Caddy needs it for TLS)
 #   PB_VERSION  PocketBase release to install (pinned; see note below)
 set -euo pipefail
 
-DOMAIN="${DOMAIN:?set DOMAIN (e.g. tablescore.duckdns.org)}"
+DOMAIN="${DOMAIN:?set DOMAIN (e.g. tabletopscore.duckdns.org)}"
 # Pinned deliberately: PocketBase is pre-1.0 and hook/migration APIs move
 # between minors. Read release notes + snapshot pb_data before bumping.
 PB_VERSION="${PB_VERSION:-0.29.3}"
@@ -48,7 +48,7 @@ chmod +x /opt/pocketbase/pocketbase
 echo "== systemd unit =="
 cat > /etc/systemd/system/pocketbase.service <<'UNIT'
 [Unit]
-Description=PocketBase (TableScore)
+Description=PocketBase (TabletopScore)
 After=network.target
 
 [Service]

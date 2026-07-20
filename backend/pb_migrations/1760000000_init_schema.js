@@ -1,5 +1,5 @@
 /// <reference path="../pb_data/types.d.ts" />
-// TableScore schema (PocketBase >= 0.23 JS migration API; pinned version in
+// TabletopScore schema (PocketBase >= 0.23 JS migration API; pinned version in
 // setup_server.sh). Content collections are public-read / admin-write;
 // `events` is public CREATE-only (anonymous analytics), admin-read.
 //

@@ -1,5 +1,5 @@
 import XCTest
-@testable import TableScore
+@testable import TabletopScore
 
 /// Deterministic RNG so shuffle assertions are stable.
 private struct SeededGenerator: RandomNumberGenerator {

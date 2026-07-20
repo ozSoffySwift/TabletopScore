@@ -30,7 +30,7 @@ SOURCES = os.path.join(os.path.dirname(__file__), "sources.csv")
 BASE = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/{}.mp3"
 SOURCE_PAGE = "https://incompetech.com/music/royalty-free/"
 DEV_CDN = "http://localhost:8787/audio"
-HEADERS = {"User-Agent": "TableScore-catalog-builder/1.0 (dev tooling)"}
+HEADERS = {"User-Agent": "TabletopScore-catalog-builder/1.0 (dev tooling)"}
 TRACKS_PER_PLAYLIST = 4
 
 # Candidate incompetech titles per playlist, best fit first. Extra candidates

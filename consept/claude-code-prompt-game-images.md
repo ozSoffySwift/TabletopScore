@@ -1,10 +1,10 @@
 # Claude Code prompt — Fetch real game images and wire them into the app
 
-Run in the TableScore project folder. Requires `fetch_game_art.py` in the folder.
+Run in the TabletopScore project folder. Requires `fetch_game_art.py` in the folder.
 
 ---
 
-Get real board-game box art into TableScore using the BoardGameGeek pipeline.
+Get real board-game box art into TabletopScore using the BoardGameGeek pipeline.
 
 1. **Run the fetcher.** Execute `fetch_game_art.py` (Python 3, `pip install requests`). It queries the BGG XML API for ~100 popular games and produces `games.json` (metadata + image URLs in our catalog schema) and an `art/` folder with downloaded box art. BGG replies 202 while queueing — the script retries; be patient on first run, and don't parallelize or tighten its rate limits.
 

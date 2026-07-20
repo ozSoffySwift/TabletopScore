@@ -1,5 +1,5 @@
 #!/bin/sh
-# Provision the TableScore backend on Oracle Cloud Always Free (Phase 1).
+# Provision the TabletopScore backend on Oracle Cloud Always Free (Phase 1).
 # Requires: oci CLI configured (`oci setup config`). Idempotent-ish: looks up
 # existing resources by display-name before creating.
 #
@@ -12,8 +12,8 @@
 # (odd hours / start of month work best).
 set -eu
 
-NAME=tablescore
-SSH_KEY="$(dirname "$0")/keys/tablescore_ed25519.pub"
+NAME=tabletopscore
+SSH_KEY="$(dirname "$0")/keys/tabletopscore_ed25519.pub"
 # Override if your Always Free ARM quota is split with another instance,
 # e.g. SHAPE_CONFIG='{"ocpus": 1, "memoryInGBs": 6}'
 if [ -z "${SHAPE_CONFIG:-}" ]; then

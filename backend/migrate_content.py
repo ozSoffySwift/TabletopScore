@@ -19,7 +19,7 @@ from urllib.parse import unquote, urlparse
 import requests
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-CATALOG = os.path.join(ROOT, "TableScore", "Resources", "catalog.json")
+CATALOG = os.path.join(ROOT, "TabletopScore", "Resources", "catalog.json")
 AUDIO_DIR = os.path.join(ROOT, "DevCDN", "audio")
 ART_DIR = os.path.join(ROOT, "DevCDN", "art")
 
