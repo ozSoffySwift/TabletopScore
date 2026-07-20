@@ -1,0 +1,79 @@
+track_id,title,composer,source,source_url,license,download_date,notes
+# License audit trail (LICENSING.md checklist item 2). One row per catalog
+# track. Fill in as real tracks are downloaded; keep original filenames.
+# license values: CC-BY-4.0 | Pixabay | PD | dev-fixture
+t001-t085,(all fixture tracks),Thomas Schürger (SoundHelix),SoundHelix,https://www.soundhelix.com,dev-fixture,2026-07-13,streamed test MP3s — replace before release
+km-five-armies,Five Armies,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Five%20Armies.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-prelude-and-action,Prelude and Action,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Prelude%20and%20Action.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-volatile-reaction,Volatile Reaction,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Volatile%20Reaction.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-the-complex,The Complex,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Complex.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-deliberate-thought,Deliberate Thought,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Deliberate%20Thought.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-thinking-music,Thinking Music,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Thinking%20Music.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-bass-walker,Bass Walker,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bass%20Walker.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-off-to-osaka,Off to Osaka,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Off%20to%20Osaka.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-thatched-villagers,Thatched Villagers,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Thatched%20Villagers.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-pippin-the-hunchback,Pippin the Hunchback,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pippin%20the%20Hunchback.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-folk-round,Folk Round,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Folk%20Round.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-angevin,Angevin,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Angevin.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-curse-of-the-scarab,Curse of the Scarab,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Curse%20of%20the%20Scarab.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-the-descent,The Descent,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Descent.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-lord-of-the-land,Lord of the Land,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lord%20of%20the%20Land.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-skye-cuillin,Skye Cuillin,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Skye%20Cuillin.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-ghost-story,Ghost Story,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ghost%20Story.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-oppressive-gloom,Oppressive Gloom,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Oppressive%20Gloom.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-anguish,Anguish,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Anguish.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-the-dread,The Dread,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Dread.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-space-jazz,Space Jazz,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Space%20Jazz.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-martian-cowboy,Martian Cowboy,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Martian%20Cowboy.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-floating-cities,Floating Cities,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Floating%20Cities.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-frozen-star,Frozen Star,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Frozen%20Star.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-master-of-the-feast,Master of the Feast,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Master%20of%20the%20Feast.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-suonatore-di-liuto,Suonatore di Liuto,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Suonatore%20di%20Liuto.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-celtic-impulse,Celtic Impulse,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Celtic%20Impulse.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-achaidh-cheide,Achaidh Cheide,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Achaidh%20Cheide.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-monkeys-spinning-monkeys,Monkeys Spinning Monkeys,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Monkeys%20Spinning%20Monkeys.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-fluffing-a-duck,Fluffing a Duck,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fluffing%20a%20Duck.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-cheery-monday,Cheery Monday,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cheery%20Monday.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-carefree,Carefree,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-covert-affair,Covert Affair,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Covert%20Affair.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-deadly-roulette,Deadly Roulette,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Deadly%20Roulette.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-hard-boiled,Hard Boiled,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Hard%20Boiled.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-i-knew-a-guy,I Knew a Guy,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/I%20Knew%20a%20Guy.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-gymnopedie-no-1,Gymnopedie No 1,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gymnopedie%20No%201.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-meditation-impromptu-01,Meditation Impromptu 01,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2001.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-frost-waltz,Frost Waltz,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Frost%20Waltz.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-wisps-of-whorls,Wisps of Whorls,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wisps%20of%20Whorls.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-heroic-age,Heroic Age,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heroic%20Age.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-inspired,Inspired,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Inspired.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-ascending-the-vale,Ascending the Vale,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ascending%20the%20Vale.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-bathed-in-the-light,Bathed in the Light,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bathed%20in%20the%20Light.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-electrodoodle,Electrodoodle,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Electrodoodle.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-pamgaea,Pamgaea,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pamgaea.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-cut-and-run,Cut and Run,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cut%20and%20Run.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-the-builder,The Builder,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Builder.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-meditation-impromptu-02,Meditation Impromptu 02,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2002.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-tranquility,Tranquility,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Tranquility.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-wallpaper,Wallpaper,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wallpaper.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-divertissement,Divertissement,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Divertissement.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-exhilarate,Exhilarate,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Exhilarate.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-rhinoceros,Rhinoceros,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Rhinoceros.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-take-a-chance,Take a Chance,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Take%20a%20Chance.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-the-cannery,The Cannery,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Cannery.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-canon-in-d-major,Canon in D Major,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Canon%20in%20D%20Major.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-prelude-in-c-bwv-846,Prelude in C - BWV 846,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Prelude%20in%20C%20-%20BWV%20846.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-egmont-overture-finale,Egmont Overture Finale,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Egmont%20Overture%20Finale.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-local-forecast-elevator,Local Forecast - Elevator,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Local%20Forecast%20-%20Elevator.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-local-forecast,Local Forecast,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Local%20Forecast.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-backed-vibes-clean,Backed Vibes Clean,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Backed%20Vibes%20Clean.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-cool-vibes,Cool Vibes,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cool%20Vibes.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-fireflies-and-stardust,Fireflies and Stardust,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fireflies%20and%20Stardust.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-wholesome,Wholesome,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wholesome.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-garden-music,Garden Music,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Garden%20Music.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-porch-swing-days-faster,Porch Swing Days - faster,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Porch%20Swing%20Days%20-%20faster.mp3,CC-BY-4.0,2026-07-13,dev CDN copy; ads-safe with attribution
+km-air-prelude,Air Prelude,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Air%20Prelude.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-danse-macabre-no-violin,Danse Macabre - No Violin,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Danse%20Macabre%20-%20No%20Violin.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-the-entertainer,The Entertainer,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Entertainer.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-maple-leaf-rag,Maple Leaf Rag,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Maple%20Leaf%20Rag.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-dance-of-the-sugar-plum-fairy,Dance of the Sugar Plum Fairy,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dance%20of%20the%20Sugar%20Plum%20Fairy.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-string-impromptu-number-1,String Impromptu Number 1,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/String%20Impromptu%20Number%201.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution
+km-sonatina,Sonatina,Kevin MacLeod,incompetech,https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sonatina.mp3,CC-BY-4.0,2026-07-20,classical playlist; ads-safe with attribution

@@ -1,0 +1,840 @@
+{
+  "drums-of-war": [
+    {
+      "id": "km-five-armies",
+      "title": "Five Armies",
+      "artist": "Kevin MacLeod",
+      "duration": 260,
+      "url": "http://localhost:8787/audio/Five%20Armies.mp3",
+      "bytes": 6235982,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Five Armies” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-prelude-and-action",
+      "title": "Prelude and Action",
+      "artist": "Kevin MacLeod",
+      "duration": 165,
+      "url": "http://localhost:8787/audio/Prelude%20and%20Action.mp3",
+      "bytes": 3956095,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Prelude and Action” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-volatile-reaction",
+      "title": "Volatile Reaction",
+      "artist": "Kevin MacLeod",
+      "duration": 221,
+      "url": "http://localhost:8787/audio/Volatile%20Reaction.mp3",
+      "bytes": 5293585,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Volatile Reaction” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-the-complex",
+      "title": "The Complex",
+      "artist": "Kevin MacLeod",
+      "duration": 446,
+      "url": "http://localhost:8787/audio/The%20Complex.mp3",
+      "bytes": 10712421,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“The Complex” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "iron-rails": [
+    {
+      "id": "km-deliberate-thought",
+      "title": "Deliberate Thought",
+      "artist": "Kevin MacLeod",
+      "duration": 301,
+      "url": "http://localhost:8787/audio/Deliberate%20Thought.mp3",
+      "bytes": 7224606,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Deliberate Thought” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-thinking-music",
+      "title": "Thinking Music",
+      "artist": "Kevin MacLeod",
+      "duration": 261,
+      "url": "http://localhost:8787/audio/Thinking%20Music.mp3",
+      "bytes": 6270785,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Thinking Music” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-bass-walker",
+      "title": "Bass Walker",
+      "artist": "Kevin MacLeod",
+      "duration": 269,
+      "url": "http://localhost:8787/audio/Bass%20Walker.mp3",
+      "bytes": 6463882,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Bass Walker” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-off-to-osaka",
+      "title": "Off to Osaka",
+      "artist": "Kevin MacLeod",
+      "duration": 168,
+      "url": "http://localhost:8787/audio/Off%20to%20Osaka.mp3",
+      "bytes": 4021693,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Off to Osaka” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "meeple-meadows": [
+    {
+      "id": "km-thatched-villagers",
+      "title": "Thatched Villagers",
+      "artist": "Kevin MacLeod",
+      "duration": 409,
+      "url": "http://localhost:8787/audio/Thatched%20Villagers.mp3",
+      "bytes": 9808523,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Thatched Villagers” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-pippin-the-hunchback",
+      "title": "Pippin the Hunchback",
+      "artist": "Kevin MacLeod",
+      "duration": 322,
+      "url": "http://localhost:8787/audio/Pippin%20the%20Hunchback.mp3",
+      "bytes": 7732382,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Pippin the Hunchback” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-folk-round",
+      "title": "Folk Round",
+      "artist": "Kevin MacLeod",
+      "duration": 311,
+      "url": "http://localhost:8787/audio/Folk%20Round.mp3",
+      "bytes": 7472358,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Folk Round” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-angevin",
+      "title": "Angevin",
+      "artist": "Kevin MacLeod",
+      "duration": 468,
+      "url": "http://localhost:8787/audio/Angevin.mp3",
+      "bytes": 11224420,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Angevin” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "candlelit-crypts": [
+    {
+      "id": "km-curse-of-the-scarab",
+      "title": "Curse of the Scarab",
+      "artist": "Kevin MacLeod",
+      "duration": 436,
+      "url": "http://localhost:8787/audio/Curse%20of%20the%20Scarab.mp3",
+      "bytes": 10473824,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Curse of the Scarab” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-the-descent",
+      "title": "The Descent",
+      "artist": "Kevin MacLeod",
+      "duration": 320,
+      "url": "http://localhost:8787/audio/The%20Descent.mp3",
+      "bytes": 7672813,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“The Descent” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-lord-of-the-land",
+      "title": "Lord of the Land",
+      "artist": "Kevin MacLeod",
+      "duration": 249,
+      "url": "http://localhost:8787/audio/Lord%20of%20the%20Land.mp3",
+      "bytes": 5969863,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Lord of the Land” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-skye-cuillin",
+      "title": "Skye Cuillin",
+      "artist": "Kevin MacLeod",
+      "duration": 328,
+      "url": "http://localhost:8787/audio/Skye%20Cuillin.mp3",
+      "bytes": 7861123,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Skye Cuillin” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "eldritch-static": [
+    {
+      "id": "km-ghost-story",
+      "title": "Ghost Story",
+      "artist": "Kevin MacLeod",
+      "duration": 533,
+      "url": "http://localhost:8787/audio/Ghost%20Story.mp3",
+      "bytes": 12785490,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Ghost Story” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-oppressive-gloom",
+      "title": "Oppressive Gloom",
+      "artist": "Kevin MacLeod",
+      "duration": 332,
+      "url": "http://localhost:8787/audio/Oppressive%20Gloom.mp3",
+      "bytes": 7977933,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Oppressive Gloom” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-anguish",
+      "title": "Anguish",
+      "artist": "Kevin MacLeod",
+      "duration": 319,
+      "url": "http://localhost:8787/audio/Anguish.mp3",
+      "bytes": 7653395,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Anguish” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-the-dread",
+      "title": "The Dread",
+      "artist": "Kevin MacLeod",
+      "duration": 329,
+      "url": "http://localhost:8787/audio/The%20Dread.mp3",
+      "bytes": 7896741,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“The Dread” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "starlane-drift": [
+    {
+      "id": "km-space-jazz",
+      "title": "Space Jazz",
+      "artist": "Kevin MacLeod",
+      "duration": 308,
+      "url": "http://localhost:8787/audio/Space%20Jazz.mp3",
+      "bytes": 7392261,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Space Jazz” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-martian-cowboy",
+      "title": "Martian Cowboy",
+      "artist": "Kevin MacLeod",
+      "duration": 301,
+      "url": "http://localhost:8787/audio/Martian%20Cowboy.mp3",
+      "bytes": 7221457,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Martian Cowboy” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-floating-cities",
+      "title": "Floating Cities",
+      "artist": "Kevin MacLeod",
+      "duration": 246,
+      "url": "http://localhost:8787/audio/Floating%20Cities.mp3",
+      "bytes": 5892113,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Floating Cities” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-frozen-star",
+      "title": "Frozen Star",
+      "artist": "Kevin MacLeod",
+      "duration": 374,
+      "url": "http://localhost:8787/audio/Frozen%20Star.mp3",
+      "bytes": 8977291,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Frozen Star” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "tavern-tales": [
+    {
+      "id": "km-master-of-the-feast",
+      "title": "Master of the Feast",
+      "artist": "Kevin MacLeod",
+      "duration": 304,
+      "url": "http://localhost:8787/audio/Master%20of%20the%20Feast.mp3",
+      "bytes": 7306499,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Master of the Feast” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-suonatore-di-liuto",
+      "title": "Suonatore di Liuto",
+      "artist": "Kevin MacLeod",
+      "duration": 193,
+      "url": "http://localhost:8787/audio/Suonatore%20di%20Liuto.mp3",
+      "bytes": 4625703,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Suonatore di Liuto” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-celtic-impulse",
+      "title": "Celtic Impulse",
+      "artist": "Kevin MacLeod",
+      "duration": 269,
+      "url": "http://localhost:8787/audio/Celtic%20Impulse.mp3",
+      "bytes": 6446732,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Celtic Impulse” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-achaidh-cheide",
+      "title": "Achaidh Cheide",
+      "artist": "Kevin MacLeod",
+      "duration": 228,
+      "url": "http://localhost:8787/audio/Achaidh%20Cheide.mp3",
+      "bytes": 5475031,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Achaidh Cheide” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "quick-draw": [
+    {
+      "id": "km-monkeys-spinning-monkeys",
+      "title": "Monkeys Spinning Monkeys",
+      "artist": "Kevin MacLeod",
+      "duration": 209,
+      "url": "http://localhost:8787/audio/Monkeys%20Spinning%20Monkeys.mp3",
+      "bytes": 5005207,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Monkeys Spinning Monkeys” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-fluffing-a-duck",
+      "title": "Fluffing a Duck",
+      "artist": "Kevin MacLeod",
+      "duration": 112,
+      "url": "http://localhost:8787/audio/Fluffing%20a%20Duck.mp3",
+      "bytes": 2696840,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Fluffing a Duck” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-cheery-monday",
+      "title": "Cheery Monday",
+      "artist": "Kevin MacLeod",
+      "duration": 107,
+      "url": "http://localhost:8787/audio/Cheery%20Monday.mp3",
+      "bytes": 2569352,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Cheery Monday” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-carefree",
+      "title": "Carefree",
+      "artist": "Kevin MacLeod",
+      "duration": 274,
+      "url": "http://localhost:8787/audio/Carefree.mp3",
+      "bytes": 6566713,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Carefree” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "duel-at-dawn": [
+    {
+      "id": "km-covert-affair",
+      "title": "Covert Affair",
+      "artist": "Kevin MacLeod",
+      "duration": 324,
+      "url": "http://localhost:8787/audio/Covert%20Affair.mp3",
+      "bytes": 7769896,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Covert Affair” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-deadly-roulette",
+      "title": "Deadly Roulette",
+      "artist": "Kevin MacLeod",
+      "duration": 212,
+      "url": "http://localhost:8787/audio/Deadly%20Roulette.mp3",
+      "bytes": 5099663,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Deadly Roulette” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-hard-boiled",
+      "title": "Hard Boiled",
+      "artist": "Kevin MacLeod",
+      "duration": 241,
+      "url": "http://localhost:8787/audio/Hard%20Boiled.mp3",
+      "bytes": 5795162,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Hard Boiled” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-i-knew-a-guy",
+      "title": "I Knew a Guy",
+      "artist": "Kevin MacLeod",
+      "duration": 252,
+      "url": "http://localhost:8787/audio/I%20Knew%20a%20Guy.mp3",
+      "bytes": 6044335,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“I Knew a Guy” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "solo-night": [
+    {
+      "id": "km-gymnopedie-no-1",
+      "title": "Gymnopedie No 1",
+      "artist": "Kevin MacLeod",
+      "duration": 312,
+      "url": "http://localhost:8787/audio/Gymnopedie%20No%201.mp3",
+      "bytes": 7487656,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Gymnopedie No 1” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-meditation-impromptu-01",
+      "title": "Meditation Impromptu 01",
+      "artist": "Kevin MacLeod",
+      "duration": 293,
+      "url": "http://localhost:8787/audio/Meditation%20Impromptu%2001.mp3",
+      "bytes": 7042622,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Meditation Impromptu 01” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-frost-waltz",
+      "title": "Frost Waltz",
+      "artist": "Kevin MacLeod",
+      "duration": 230,
+      "url": "http://localhost:8787/audio/Frost%20Waltz.mp3",
+      "bytes": 5526812,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Frost Waltz” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-wisps-of-whorls",
+      "title": "Wisps of Whorls",
+      "artist": "Kevin MacLeod",
+      "duration": 1427,
+      "url": "http://localhost:8787/audio/Wisps%20of%20Whorls.mp3",
+      "bytes": 34244551,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Wisps of Whorls” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "kindled-fellowship": [
+    {
+      "id": "km-heroic-age",
+      "title": "Heroic Age",
+      "artist": "Kevin MacLeod",
+      "duration": 163,
+      "url": "http://localhost:8787/audio/Heroic%20Age.mp3",
+      "bytes": 3902611,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Heroic Age” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-inspired",
+      "title": "Inspired",
+      "artist": "Kevin MacLeod",
+      "duration": 382,
+      "url": "http://localhost:8787/audio/Inspired.mp3",
+      "bytes": 9156393,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Inspired” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-ascending-the-vale",
+      "title": "Ascending the Vale",
+      "artist": "Kevin MacLeod",
+      "duration": 330,
+      "url": "http://localhost:8787/audio/Ascending%20the%20Vale.mp3",
+      "bytes": 7926743,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Ascending the Vale” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-bathed-in-the-light",
+      "title": "Bathed in the Light",
+      "artist": "Kevin MacLeod",
+      "duration": 282,
+      "url": "http://localhost:8787/audio/Bathed%20in%20the%20Light.mp3",
+      "bytes": 6765750,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Bathed in the Light” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "shuffle-and-spark": [
+    {
+      "id": "km-electrodoodle",
+      "title": "Electrodoodle",
+      "artist": "Kevin MacLeod",
+      "duration": 277,
+      "url": "http://localhost:8787/audio/Electrodoodle.mp3",
+      "bytes": 6644624,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Electrodoodle” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-pamgaea",
+      "title": "Pamgaea",
+      "artist": "Kevin MacLeod",
+      "duration": 281,
+      "url": "http://localhost:8787/audio/Pamgaea.mp3",
+      "bytes": 6744939,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Pamgaea” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-cut-and-run",
+      "title": "Cut and Run",
+      "artist": "Kevin MacLeod",
+      "duration": 358,
+      "url": "http://localhost:8787/audio/Cut%20and%20Run.mp3",
+      "bytes": 8595361,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Cut and Run” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-the-builder",
+      "title": "The Builder",
+      "artist": "Kevin MacLeod",
+      "duration": 196,
+      "url": "http://localhost:8787/audio/The%20Builder.mp3",
+      "bytes": 4707417,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“The Builder” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "glass-lines": [
+    {
+      "id": "km-meditation-impromptu-02",
+      "title": "Meditation Impromptu 02",
+      "artist": "Kevin MacLeod",
+      "duration": 344,
+      "url": "http://localhost:8787/audio/Meditation%20Impromptu%2002.mp3",
+      "bytes": 8261798,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Meditation Impromptu 02” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-tranquility",
+      "title": "Tranquility",
+      "artist": "Kevin MacLeod",
+      "duration": 1649,
+      "url": "http://localhost:8787/audio/Tranquility.mp3",
+      "bytes": 39581992,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Tranquility” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-wallpaper",
+      "title": "Wallpaper",
+      "artist": "Kevin MacLeod",
+      "duration": 367,
+      "url": "http://localhost:8787/audio/Wallpaper.mp3",
+      "bytes": 8804339,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Wallpaper” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-divertissement",
+      "title": "Divertissement",
+      "artist": "Kevin MacLeod",
+      "duration": 132,
+      "url": "http://localhost:8787/audio/Divertissement.mp3",
+      "bytes": 3163623,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Divertissement” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "banner-clash": [
+    {
+      "id": "km-exhilarate",
+      "title": "Exhilarate",
+      "artist": "Kevin MacLeod",
+      "duration": 243,
+      "url": "http://localhost:8787/audio/Exhilarate.mp3",
+      "bytes": 5821253,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Exhilarate” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-rhinoceros",
+      "title": "Rhinoceros",
+      "artist": "Kevin MacLeod",
+      "duration": 272,
+      "url": "http://localhost:8787/audio/Rhinoceros.mp3",
+      "bytes": 6526607,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Rhinoceros” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-take-a-chance",
+      "title": "Take a Chance",
+      "artist": "Kevin MacLeod",
+      "duration": 62,
+      "url": "http://localhost:8787/audio/Take%20a%20Chance.mp3",
+      "bytes": 1494334,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Take a Chance” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-the-cannery",
+      "title": "The Cannery",
+      "artist": "Kevin MacLeod",
+      "duration": 303,
+      "url": "http://localhost:8787/audio/The%20Cannery.mp3",
+      "bytes": 7283056,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“The Cannery” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "steam-steel": [
+    {
+      "id": "km-canon-in-d-major",
+      "title": "Canon in D Major",
+      "artist": "Kevin MacLeod",
+      "duration": 494,
+      "url": "http://localhost:8787/audio/Canon%20in%20D%20Major.mp3",
+      "bytes": 11851012,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Canon in D Major” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-prelude-in-c-bwv-846",
+      "title": "Prelude in C - BWV 846",
+      "artist": "Kevin MacLeod",
+      "duration": 298,
+      "url": "http://localhost:8787/audio/Prelude%20in%20C%20-%20BWV%20846.mp3",
+      "bytes": 7150263,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Prelude in C - BWV 846” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-egmont-overture-finale",
+      "title": "Egmont Overture Finale",
+      "artist": "Kevin MacLeod",
+      "duration": 173,
+      "url": "http://localhost:8787/audio/Egmont%20Overture%20Finale.mp3",
+      "bytes": 4155199,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Egmont Overture Finale” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "engine-room": [
+    {
+      "id": "km-local-forecast-elevator",
+      "title": "Local Forecast - Elevator",
+      "artist": "Kevin MacLeod",
+      "duration": 315,
+      "url": "http://localhost:8787/audio/Local%20Forecast%20-%20Elevator.mp3",
+      "bytes": 7570404,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Local Forecast - Elevator” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-local-forecast",
+      "title": "Local Forecast",
+      "artist": "Kevin MacLeod",
+      "duration": 275,
+      "url": "http://localhost:8787/audio/Local%20Forecast.mp3",
+      "bytes": 6611177,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Local Forecast” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-backed-vibes-clean",
+      "title": "Backed Vibes Clean",
+      "artist": "Kevin MacLeod",
+      "duration": 387,
+      "url": "http://localhost:8787/audio/Backed%20Vibes%20Clean.mp3",
+      "bytes": 9277779,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Backed Vibes Clean” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-cool-vibes",
+      "title": "Cool Vibes",
+      "artist": "Kevin MacLeod",
+      "duration": 364,
+      "url": "http://localhost:8787/audio/Cool%20Vibes.mp3",
+      "bytes": 8737561,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Cool Vibes” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ],
+  "cozy-meadow": [
+    {
+      "id": "km-fireflies-and-stardust",
+      "title": "Fireflies and Stardust",
+      "artist": "Kevin MacLeod",
+      "duration": 340,
+      "url": "http://localhost:8787/audio/Fireflies%20and%20Stardust.mp3",
+      "bytes": 8164148,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Fireflies and Stardust” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-wholesome",
+      "title": "Wholesome",
+      "artist": "Kevin MacLeod",
+      "duration": 607,
+      "url": "http://localhost:8787/audio/Wholesome.mp3",
+      "bytes": 14556390,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Wholesome” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-garden-music",
+      "title": "Garden Music",
+      "artist": "Kevin MacLeod",
+      "duration": 3319,
+      "url": "http://localhost:8787/audio/Garden%20Music.mp3",
+      "bytes": 79665939,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Garden Music” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    },
+    {
+      "id": "km-porch-swing-days-faster",
+      "title": "Porch Swing Days - faster",
+      "artist": "Kevin MacLeod",
+      "duration": 308,
+      "url": "http://localhost:8787/audio/Porch%20Swing%20Days%20-%20faster.mp3",
+      "bytes": 7389323,
+      "composer": "Kevin MacLeod",
+      "license": "CC-BY-4.0",
+      "sourceURL": "https://incompetech.com/music/royalty-free/",
+      "creditText": "“Porch Swing Days - faster” Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0"
+    }
+  ]
+}

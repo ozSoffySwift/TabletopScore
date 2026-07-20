@@ -1,0 +1,48 @@
+# ── Secrets — never commit ────────────────────────────────────────────────
+backend/keys/
+*.pem
+*.key
+*.p12
+*.mobileprovision
+.env
+backend/.env
+
+# Local machine settings (contains absolute paths / ssh invocations)
+.claude/settings.local.json
+
+# Server infrastructure notes: public IP, instance/tenancy OCIDs, admin URLs.
+# Kept locally, deliberately not published.
+SERVER.md
+
+# ── Large media ───────────────────────────────────────────────────────────
+# Audio and box art are served from the PocketBase backend, which is the
+# source of truth. Keeping ~700 MB of binaries out of git keeps clones fast.
+# Re-populate the server with backend/migrate_content.py and
+# backend/upload_game_art.py.
+assets/sound/music/
+assets/images/games/
+DevCDN/audio
+DevCDN/art
+
+# ── Xcode / build ─────────────────────────────────────────────────────────
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+.swiftpm/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── macOS ─────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ── Logs / scratch ────────────────────────────────────────────────────────
+*.log
