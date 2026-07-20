@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — TabletopScore</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --fg: #1c1c1e; --muted: #6b6b70;
+    --rule: #e5e5ea; --accent: #b8860b; --card: #f7f7f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121214; --fg: #ececf0; --muted: #a0a0a8;
+            --rule: #2c2c30; --accent: #e0b34a; --card: #1c1c20; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2.5rem 1.25rem 4rem; max-width: 46rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 .5rem; letter-spacing: -.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  .summary {
+    background: var(--card); border-left: 3px solid var(--accent);
+    padding: 1rem 1.15rem; border-radius: 6px; margin: 1.5rem 0 2rem;
+  }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; font-size: .95rem; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 600; }
+  code { background: var(--card); padding: .12rem .35rem; border-radius: 4px; font-size: .88em; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">TabletopScore for iOS · Effective 20 July 2026</p>
+
+<div class="summary">
+  <strong>The short version.</strong> TabletopScore has no accounts and asks for
+  nothing about you. It does not know your name, email, contacts, or location.
+  The only thing it sends is an optional, anonymous count of which games and
+  playlists get played — and you can switch that off in Settings. Nothing is
+  sold or shared with anyone.
+</div>
+
+<h2>Who is responsible</h2>
+<p>
+  TabletopScore is developed and operated by Oz Soffy, an independent developer.
+  For any privacy question or request, contact
+  <a href="mailto:ozsoffy@gmail.com">ozsoffy@gmail.com</a>.
+</p>
+
+<h2>What the app collects</h2>
+
+<h3>1. Anonymous usage data (optional, can be switched off)</h3>
+<p>
+  When the “Share anonymous usage data” setting is on, the app sends a small
+  event each time you open a game or start playing a soundtrack. Each event
+  contains only:
+</p>
+<table>
+  <tr><th>Field</th><th>What it is</th></tr>
+  <tr><td><code>type</code></td><td>Which action happened: <code>game_opened</code>, <code>play_started</code>, or <code>playlist_completed</code></td></tr>
+  <tr><td><code>gameId</code> / <code>playlistId</code> / <code>trackId</code></td><td>Which catalog item it refers to (e.g. <code>gloomhaven</code>)</td></tr>
+  <tr><td><code>anonDeviceId</code></td><td>A random identifier created by the app on first launch</td></tr>
+  <tr><td><code>ts</code></td><td>The time the action happened</td></tr>
+</table>
+<p>
+  The <code>anonDeviceId</code> is a randomly generated value. It is
+  <strong>not</strong> your Apple advertising identifier, and it is not derived
+  from your device’s hardware or any account. Its only purpose is so that one
+  person playing a playlist ten times isn’t counted as ten different people.
+  Deleting the app deletes it; reinstalling generates a brand-new one, which
+  cannot be connected to the previous one.
+</p>
+<p>
+  This data is used solely to understand which soundtracks are worth expanding.
+  It is never used to build a profile, target advertising, or track you across
+  other apps or websites.
+</p>
+
+<h3>2. Technical data from ordinary server requests</h3>
+<p>
+  TabletopScore streams its music and artwork from its own server rather than
+  bundling them in the app. As with any internet request, that server’s logs
+  record the IP address, timestamp, and requested file for each request.
+</p>
+<p>
+  <strong>Please note:</strong> this happens whenever the app loads content, and
+  is therefore <em>not</em> affected by the “Share anonymous usage data” setting —
+  turning that setting off stops the usage events described above, but the app
+  still has to contact the server to fetch music and images. These logs are used
+  only to operate and secure the service, are not combined with the usage events
+  above, and are not used to identify anyone.
+</p>
+
+<h2>What the app does <em>not</em> collect</h2>
+<ul>
+  <li>No name, email address, phone number, or postal address</li>
+  <li>No account or sign-in of any kind — there is no login</li>
+  <li>No location data</li>
+  <li>No contacts, photos, calendar, microphone, or camera access</li>
+  <li>No advertising identifier (IDFA), and no App Tracking Transparency prompt, because the app does not track you</li>
+  <li>No health, financial, or biometric data</li>
+  <li>No third-party analytics, advertising, or social SDKs — the app uses only Apple’s own frameworks</li>
+</ul>
+
+<h2>How to turn analytics off</h2>
+<p>
+  Open <strong>Settings → Privacy</strong> in the app and switch off
+  <strong>“Share anonymous usage data.”</strong> This takes effect immediately:
+  no further events are sent, and any events waiting to be sent are discarded.
+</p>
+
+<h2>Who the data is shared with</h2>
+<p>
+  <strong>No one.</strong> The data is not sold, rented, traded, or shared with
+  advertisers, data brokers, analytics vendors, or any other third party. It is
+  stored on a server operated solely for TabletopScore, hosted on Oracle Cloud
+  Infrastructure, which acts only as the hosting provider.
+</p>
+
+<h2>How long it is kept</h2>
+<ul>
+  <li><strong>Usage events:</strong> retained in aggregate for product decisions. Because they contain no identifying information, they are not linked to you.</li>
+  <li><strong>Server logs:</strong> kept only as long as needed to operate and secure the service, then rotated and deleted.</li>
+  <li><strong>On your device:</strong> your settings and the anonymous identifier live in the app’s own storage and are removed completely when you delete the app.</li>
+</ul>
+
+<h2>Children</h2>
+<p>
+  TabletopScore is suitable for general audiences and does not knowingly collect
+  personal information from children. Because the app collects no personal
+  information from anyone and has no accounts, messaging, or user-generated
+  content, there is nothing about a child that could be collected or disclosed.
+</p>
+
+<h2>Your rights</h2>
+<p>
+  Depending on where you live (for example under the GDPR in the EU/UK, or the
+  CCPA in California), you may have rights to access, correct, delete, or export
+  personal data held about you, and to object to its processing.
+</p>
+<p>
+  In practice, the app holds nothing that identifies you, so there is normally
+  nothing to retrieve or erase. The most direct way to exercise these rights is
+  to switch off analytics in Settings, and to delete the app — which removes the
+  anonymous identifier permanently. If you would like to make a formal request or
+  simply ask what is held, email
+  <a href="mailto:ozsoffy@gmail.com">ozsoffy@gmail.com</a> and it will be
+  answered.
+</p>
+
+<h2>Music and game information</h2>
+<p>
+  Music in TabletopScore is licensed under Creative Commons Attribution 4.0, with
+  full credits listed in <strong>Settings → Music Credits</strong>. Board game
+  information is courtesy of BoardGameGeek. Playing music does not send anything
+  to those parties — all audio is served from TabletopScore’s own server.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If what the app collects changes — for example if advertising is introduced in
+  a future version — this policy will be updated before that version is released,
+  and the effective date above will change. Material changes will also be noted
+  in the app’s release notes.
+</p>
+
+<footer>
+  Questions? <a href="mailto:ozsoffy@gmail.com">ozsoffy@gmail.com</a><br>
+  TabletopScore is an independent app and is not affiliated with, endorsed by, or
+  sponsored by any board game publisher.
+</footer>
+
+</body>
+</html>

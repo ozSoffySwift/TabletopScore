@@ -4,10 +4,6 @@ import SwiftData
 struct SettingsView: View {
     @Environment(AppSettings.self) private var settings
     @Environment(\.modelContext) private var context
-    @Environment(\.openURL) private var openURL
-
-    /// Fill in once the app exists in App Store Connect.
-    private static let appStoreID = "0000000000"
 
     @State private var cacheBytes = URLCache.shared.currentDiskUsage
     @State private var isRefreshingCatalog = false
@@ -115,12 +111,6 @@ struct SettingsView: View {
             .listRowBackground(Theme.surface)
 
             Section {
-                Button {
-                    openURL(reviewURL)
-                } label: {
-                    Label("Rate TabletopScore", systemImage: "star.fill")
-                }
-                .accessibilityHint(Text("Opens the App Store to leave a rating and review"))
                 LabeledContent("Version", value: appVersion)
                 NavigationLink {
                     MusicCreditsView()
@@ -158,10 +148,6 @@ struct SettingsView: View {
 
     private var cacheSizeLabel: String {
         ByteCountFormatter.string(fromByteCount: Int64(cacheBytes), countStyle: .file)
-    }
-
-    private var reviewURL: URL {
-        URL(string: "https://apps.apple.com/app/id\(Self.appStoreID)?action=write-review")!
     }
 
     private var appVersion: String {

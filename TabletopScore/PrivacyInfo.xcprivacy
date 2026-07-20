@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  TabletopScore privacy manifest.
+
+	  Ground truth for these declarations (audited against the source):
+	  - AnalyticsService posts {type, anonDeviceId, trackId, gameId,
+	    playlistId, ts} to the backend's create-only `events` collection.
+	  - `anonDeviceId` is a random UUID generated on first launch and stored in
+	    UserDefaults. It is NOT the IDFA/IDFV and is not derived from hardware;
+	    deleting the app discards it.
+	  - Nothing is shared with third parties and no data leaves the app's own
+	    backend. There are no third-party SDKs (Apple frameworks only).
+	  - Users can disable analytics at any time in Settings → Privacy.
+	-->
+
+	<!-- No cross-app/website tracking: no IDFA, no ATT, no data brokers. -->
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array>
+		<!-- Which games/playlists/tracks were opened or played. -->
+		<dict>
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypeProductInteraction</string>
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
+			</array>
+		</dict>
+		<!--
+		  The random per-install UUID. Declared conservatively as a device ID:
+		  it distinguishes installs so play counts aren't double-counted, but it
+		  is not linked to any identity (the app has no accounts) and is never
+		  used to track across apps or websites.
+		-->
+		<dict>
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypeDeviceID</string>
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
+			</array>
+		</dict>
+	</array>
+
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<!--
+		  UserDefaults stores this app's own settings (appearance, crossfade,
+		  cellular streaming, analytics opt-out, last-synced catalog version)
+		  and the anonymous install id. Reason CA92.1 = access info from the
+		  same app, per Apple's required-reason documentation.
+		-->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
