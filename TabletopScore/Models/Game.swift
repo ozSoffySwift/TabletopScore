@@ -18,7 +18,8 @@ final class Game {
     var categories: [GameCategory]
     var playlist: Playlist?
     var lastPlayedAt: Date?
-    /// Licensing credit for fetched metadata/box art (e.g. BoardGameGeek).
+    /// Optional credit line for this game's metadata or artwork, for sources
+    /// that ask to be credited. Not displayed anywhere today.
     var attributionText: String?
 
     var artworkURL: URL? { artworkURLString.flatMap(URL.init(string:)) }

@@ -4,7 +4,7 @@
 // `events` is public CREATE-only (anonymous analytics), admin-read.
 //
 // `slug` fields carry the app's stable string ids ("drums-of-war",
-// "km-five-armies", "bgg-169786") — the catalog hook exposes slugs as ids so
+// "km-five-armies", "scythe") — the catalog hook exposes slugs as ids so
 // the iOS sync's diffing keeps working unchanged.
 
 migrate((app) => {
@@ -101,7 +101,7 @@ migrate((app) => {
       { name: "categories", type: "relation", collectionId: categories.id, maxSelect: 99 },
       // Exactly one curated soundtrack per game (spec §2.1).
       { name: "playlist", type: "relation", collectionId: playlists.id, maxSelect: 1 },
-      // BGG attribution — never strip (LICENSING.md).
+      // Optional credit line for sources that ask to be credited.
       { name: "attribution", type: "text" },
       ...stamps(),
     ],

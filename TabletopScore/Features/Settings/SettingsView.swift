@@ -122,14 +122,10 @@ struct SettingsView: View {
                     Label("Privacy Policy", systemImage: "hand.raised.fill")
                 }
                 .accessibilityHint(Text("Opens the privacy policy in your browser"))
-                Link(destination: URL(string: "https://boardgamegeek.com")!) {
-                    Label("Powered by BoardGameGeek", systemImage: "link")
-                }
-                .accessibilityHint(Text("Opens boardgamegeek.com"))
             } header: {
                 Text("About")
             } footer: {
-                Text("Game data and box art courtesy of BoardGameGeek. Usage statistics are anonymous and optional (see Privacy above). Developed by Oz Soffy")
+                Text("Usage statistics are anonymous and optional (see Privacy above). Developed by Oz Soffy")
                     .frame(maxWidth: .infinity)
                     .multilineTextAlignment(.center)
                     .padding(.top, 8)

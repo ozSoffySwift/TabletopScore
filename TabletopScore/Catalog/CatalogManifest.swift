@@ -75,8 +75,8 @@ struct GameDTO: Codable, Equatable {
     var categories: [String]
     /// The hand-curated soundtrack; must reference a playlist id in this manifest.
     var playlistId: String
-    /// Licensing credit (e.g. "Data & images courtesy of BoardGameGeek").
-    /// Never strip this from the manifest — it is a condition of the BGG API terms.
+    /// Optional credit line for a game's metadata or artwork, carried through
+    /// from the manifest for sources that ask to be credited. Unused today.
     var attribution: String?
 }
 

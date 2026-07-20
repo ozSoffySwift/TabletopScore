@@ -194,15 +194,15 @@ final class CatalogSyncTests: XCTestCase {
 
     func testGameArtworkAndAttributionUpsert() throws {
         try sync.apply(makeManifest(games: [makeGame()]))
-        // Box art arrives in a later catalog version (e.g. after BGG fetch).
+        // Box art arrives in a later catalog version.
         try sync.apply(makeManifest(version: 2, games: [makeGame(
-            artwork: "http://localhost:8787/art/bgg-169786.jpg",
-            attribution: "Data & images courtesy of BoardGameGeek"
+            artwork: "http://localhost:8787/art/scythe.jpg",
+            attribution: "Artwork credit line"
         )]))
 
         let game = try fetchGame("scythe")
-        XCTAssertEqual(game.artworkURL?.absoluteString, "http://localhost:8787/art/bgg-169786.jpg")
-        XCTAssertEqual(game.attributionText, "Data & images courtesy of BoardGameGeek")
+        XCTAssertEqual(game.artworkURL?.absoluteString, "http://localhost:8787/art/scythe.jpg")
+        XCTAssertEqual(game.attributionText, "Artwork credit line")
     }
 
     func testManifestWithoutGamesArrayStillDecodes() throws {
