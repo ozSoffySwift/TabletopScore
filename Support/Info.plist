@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-		<!-- Dev only: lets the simulator load box art from the local
-		     DevCDN server (Tools/serve_devcdn.sh, http://localhost:8787). -->
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>

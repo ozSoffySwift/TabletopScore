@@ -4,8 +4,14 @@ import Foundation
 enum BackendConfig {
     /// UPDATE after provisioning (backend/README.md, SERVER.md). Must be
     /// HTTPS — the app ships no ATS exceptions for production traffic.
-    /// PocketBase on Oracle Cloud, behind Nginx + Let's Encrypt (sslip.io).
-    static let baseURL = URL(string: "https://82-70-253-130.sslip.io")!
+    /// PocketBase on Oracle Cloud, behind Nginx + Let's Encrypt.
+    ///
+    /// Do NOT go back to an `*.sslip.io` host. App Review 1.0 (2) was rejected
+    /// because the reviewer's device never reached the server at all — those
+    /// wildcard-DNS hostnames resolve any IP on demand, so DNS filters commonly
+    /// blocklist them. The server logs showed zero connections from the review
+    /// device while serving everyone else normally.
+    static let baseURL = URL(string: "https://tablescore.duckdns.org")!
 
     static var catalogURL: URL { baseURL.appending(path: "/api/catalog.json") }
     static var eventsURL: URL { baseURL.appending(path: "/api/collections/events/records") }

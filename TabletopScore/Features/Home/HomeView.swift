@@ -5,6 +5,8 @@ import SwiftData
 /// soundtrack. Mood/playlist browsing stays as a secondary section.
 struct HomeView: View {
     @Environment(AppSettings.self) private var settings
+    @Environment(CatalogLoader.self) private var loader
+    @Environment(\.modelContext) private var context
 
     @Query(filter: #Predicate<Game> { $0.isFeatured }, sort: \Game.popularityRank)
     private var featuredGames: [Game]
@@ -43,7 +45,13 @@ struct HomeView: View {
     var body: some View {
         ScrollView {
             if allGames.isEmpty && categories.isEmpty {
-                loadingSkeleton
+                // Never show the skeleton indefinitely: if loading finished and
+                // there is still nothing, say so and offer a way out.
+                if let message = loader.failureMessage, !loader.isSyncing {
+                    catalogUnavailable(message)
+                } else {
+                    loadingSkeleton
+                }
             } else {
                 LazyVStack(alignment: .leading, spacing: 28) {
                     HeroCarousel(games: featuredGames)
@@ -107,6 +115,29 @@ struct HomeView: View {
                 }
             }
         }
+    }
+
+    /// Shown only when loading finished and the catalog is still empty.
+    private func catalogUnavailable(_ message: String) -> some View {
+        ContentUnavailableView {
+            Label("Can't load the catalog", systemImage: "wifi.exclamationmark")
+        } description: {
+            Text(message)
+        } actions: {
+            Button {
+                Task { await loader.load(context: context) }
+            } label: {
+                if loader.isSyncing {
+                    ProgressView()
+                } else {
+                    Text("Try Again")
+                }
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(Theme.accent)
+            .disabled(loader.isSyncing)
+        }
+        .padding(.top, 80)
     }
 
     private var loadingSkeleton: some View {

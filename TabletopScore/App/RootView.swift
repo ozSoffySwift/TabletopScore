@@ -4,7 +4,8 @@ import SwiftData
 struct RootView: View {
     @Environment(\.modelContext) private var context
     @Environment(PlayerService.self) private var player
-    @State private var syncError: String?
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var loader = CatalogLoader()
 
     var body: some View {
         @Bindable var player = player
@@ -19,7 +20,14 @@ struct RootView: View {
                 .tabItem { Label("Settings", systemImage: "gearshape.fill") }
         }
         .background(Theme.background)
+        .environment(loader)
         .task { await initialSync() }
+        .onChange(of: scenePhase) { _, phase in
+            // A launch that failed while offline shouldn't stay broken: retry
+            // when the app comes back with (hopefully) a working connection.
+            guard phase == .active else { return }
+            Task { await loader.load(context: context) }
+        }
         .alert(
             "Playback",
             isPresented: Binding(
@@ -30,17 +38,6 @@ struct RootView: View {
             Button("OK", role: .cancel) {}
         } message: {
             Text(player.playbackError ?? "")
-        }
-        .alert(
-            "Catalog",
-            isPresented: Binding(
-                get: { syncError != nil },
-                set: { if !$0 { syncError = nil } }
-            )
-        ) {
-            Button("OK", role: .cancel) {}
-        } message: {
-            Text(syncError ?? "")
         }
     }
 
@@ -57,12 +54,10 @@ struct RootView: View {
     }
 
     private func initialSync() async {
-        do {
-            try await CatalogSyncService(context: context)
-                .syncIfNeeded(from: BackendConfig.catalogSource())
-        } catch {
-            syncError = String(localized: "Could not load the catalog: \(error.localizedDescription)")
-        }
+        // Offline-first: seeds from the bundled catalog, then refreshes from the
+        // server with retries. Failures surface in Home (with a retry) rather
+        // than as a modal alert over an empty screen.
+        await loader.load(context: context)
         // Restore the previous session's queue after the catalog exists.
         player.configure(context: context)
     }
