@@ -55,47 +55,69 @@ private struct HeroCard: View {
     }
 
     private var card: some View {
-        ZStack(alignment: .bottomLeading) {
-            ArtworkView(
-                key: game.id,
-                artworkURL: game.heroArtworkURLString.flatMap(URL.init(string:)) ?? game.artworkURL,
-                initials: game.initials
-            )
-            LinearGradient(
-                colors: [.clear, .black.opacity(0.8)],
-                startPoint: .center,
-                endPoint: .bottom
-            )
-            HStack(alignment: .bottom) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(game.name)
-                        .font(.title2.weight(.bold))
-                        .foregroundStyle(.white)
-                        .lineLimit(1)
-                    Text("\(game.playersLabel) · \(game.playTimeLabel)")
-                        .font(.footnote)
-                        .foregroundStyle(.white.opacity(0.7)) // sits on the dark scrim in both themes
-                }
-                Spacer()
-                if let playlist = game.playlist {
-                    Button {
-                        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-                        game.lastPlayedAt = Date()
-                        try? context.save()
-                        player.play(playlist: playlist)
-                    } label: {
-                        // Icon-only in a fixed circle: immune to text wrapping.
-                        Image(systemName: "play.fill")
-                            .font(.title3.weight(.bold))
-                            .foregroundStyle(.black)
-                            .frame(width: 52, height: 52)
-                            .background(Theme.accent, in: Circle())
-                    }
-                    .accessibilityLabel(Text("Play \(game.name) soundtrack"))
-                }
+        HStack(alignment: .bottom, spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(game.name)
+                    .font(.title3.weight(.bold))
+                    .foregroundStyle(.white)
+                    // Long names ("Twilight Imperium: Fourth Edition") wrap to a
+                    // second line and shrink a little rather than truncating.
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.75)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("\(game.playersLabel) · \(game.playTimeLabel)")
+                    .font(.footnote)
+                    .foregroundStyle(.white.opacity(0.8)) // sits on the dark scrim in both themes
+                    .lineLimit(1)
             }
-            .padding(16)
-            .padding(.bottom, 14) // keep clear of the page-indicator dots
+            Spacer(minLength: 0)
+            if let playlist = game.playlist {
+                Button {
+                    UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                    game.lastPlayedAt = Date()
+                    try? context.save()
+                    player.play(playlist: playlist)
+                } label: {
+                    // Icon-only in a fixed circle: immune to text wrapping.
+                    Image(systemName: "play.fill")
+                        .font(.title3.weight(.bold))
+                        .foregroundStyle(.black)
+                        .frame(width: 52, height: 52)
+                        .background(Theme.accent, in: Circle())
+                }
+                .accessibilityLabel(Text("Play \(game.name) soundtrack"))
+                // Never let a long title squeeze the button out of the row.
+                .layoutPriority(1)
+            }
+        }
+        .padding(16)
+        .padding(.bottom, 14) // keep clear of the page-indicator dots
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
+        // Artwork is a *background*, not a ZStack sibling: a background is sized
+        // to the content, so a large box-art image can never grow the card and
+        // push the title and play button outside the visible page. (That is
+        // exactly what used to happen — the art loaded and they vanished.)
+        .background {
+            ZStack {
+                ArtworkView(
+                    key: game.id,
+                    artworkURL: game.heroArtworkURLString.flatMap(URL.init(string:)) ?? game.artworkURL,
+                    initials: game.initials
+                )
+                // Scrim keeps the text legible over bright, busy covers (Brass
+                // is near-white; Twilight Imperium has its own title art right
+                // where ours sits). Ramps in above the text, not at it.
+                LinearGradient(
+                    stops: [
+                        .init(color: .clear, location: 0.28),
+                        .init(color: .black.opacity(0.45), location: 0.55),
+                        .init(color: .black.opacity(0.80), location: 0.78),
+                        .init(color: .black.opacity(0.94), location: 1.0),
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            }
         }
         .clipShape(RoundedRectangle(cornerRadius: Theme.cornerRadius))
         .padding(.horizontal, 16)
